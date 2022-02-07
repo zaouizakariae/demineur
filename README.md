@@ -67,7 +67,7 @@ void cell::setBombCount(int c){
     if(c!=0)setText(QString::number(c));
 }
 ```
-- 6 ovveride a mouse press event that emits a signal if the cell is right clicked or left clicked 
+- 6 create a mouse press event that emits a signal if the cell is right clicked or left clicked 
 ```cpp
    void cell::mousePressEvent(QMouseEvent *e)
    {
